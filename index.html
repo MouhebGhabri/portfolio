@@ -1,86 +1,159 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <style type="text/css">
-      </style>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Mouheb Portfolio</title>
   </head>
-    <body></body>
-        <nav id="nav-bar" class="nav-bar">
-            <ul id="nav-list" class="nav-list">
-                <li><a  href="#welcome">About</a></li>
-                <li><a  href="#projects">Projects</a></li>
-                <li><a  href="#contact">Contact me</a></li>
-            </ul>
-        </nav>
-        <!-- End Nav -->
-        <!-- Star Welcome Section  -->
-        <section id="welcome" class="welcome"><h1 style="color: wheat;">Hi I am Mouheb</h1> <p style="color: wheat; font-size: 34px;"  >Superior Technician & Web, Mobile Developer</p> 
-        <!-- End welcome section -->
-        <!-- start project section -->
-        </section>
-        <section id="projects" class="projects">
-            <h2 id="projects-section-header" class="projects-section-header" >These are some of my projects</h2>
-            <div class="project-grid">
-                <span id="cont1" class="cont1"><h1>Airport Desktop Application</h1>
-                  <ul>
-                    <li>Main function : Ticket reservation</li>
-                    <li>Language used : Java xml</li>
-                  </ul>
-              </span>
-                <span id="cont2" class="cont2">
-                  <h1>Web Application - E-Commerce App</h1>
-                  <ul>
-                    <li>Main function : Online Sales and Purchases</li>
-                    <li>Language used : HTML,CSS,PHP</li>
-                  </ul>
-                  </span>
-                <span id="cont3" class="cont3">
-                  <h1>Web and Mobile application to control connected IOT objects</h1>
-                  <ul>
-                    <li>Main function : Collect and display medical indicators
-                                        <li>Transmit the information collected locally to the Cloud platform <br>
-                                          to ensure real-time supervision of patients </li>
-                                        <li>consult the information in cloud platform</li>
-                    </li>
-                    <li>Language used : FLUTTER,DART,PHP,SQL,HTML,CSS</li>
-                  </ul>
-                </span>
-            </div>
-        </section>
-        <section id="contact" class="contact-section">
-          <div class="contact-section-header">
-            <h2>Let's work together...</h2>
-            <p style="font-style: italic ;" style="font-size: 24px;" style="color: #e6e0ec;">
-              You can get in touch with me using facebook,email or phone call.
+  <body>
+    <header>
+      <a href="#" class="logo" id="logo">Mouheb</a>
+      <nav class="navigation">
+        <a href="#services" >Services</a>
+        <a href="#projects" >Projects</a>
+        <a href="#contact" >Contact</a>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div>
+        <h2>
+          Hi there, I'am Mouheb welcome to my  personal WEBSITE <br /><span
+            >Web & Mobile developer</span
+          >
+        </h2>
+        <h3>I can help you to build your Imagination</h3>
+        <a href="#projects" class="main-btn">View my work</a>
+        <div class="social-icons">
+             <a href="https://www.linkedin.com/in/ghabri-mouheb-a3ab46222/"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://github.com/ghabri1997/"><i class="fa-brands fa-github"></i></a>
+             <a href="https://www.facebook.com/ghyfz"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="card" id="services">
+      <h2 class="title">Services</h2>
+
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </div>
+          <div class="info">
+            <h3>Web Development</h3>
+            <p>I will help you to build your web site</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-mobile"></i>
+          </div>
+          <div class="info">
+            <h3>Mobile Development</h3>
+            <p>I will help you to build your Mobile application</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-thin fa-gear"></i>
+          </div>
+          <div class="info">
+            <h3>Network Configuration</h3>
+            <p>I will help you to configure you local area network</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="title">Project</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="img\webs.png" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">
+              a real time web site that allow doctors to track their patient
+              vital signs
             </p>
+            <strong class="project-name"
+              ><span>E-Health Web site</span>
+              <a href="#" class="more-details">more details</a></strong
+            >
           </div>
-          <div class="contact-links">
-            <a
-              style="margin: auto 15px;"
-              style="color: #e6e0ec;"
-              href="https://facebook.com/ghyfz"
-              target="_blank"
-              >Facebook</a>
-            <a
-            style="margin: auto 15px;"
-            style="color: #e6e0ec;" id="profile-link" href="https://github.com/ghabri1997" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            <a               
-            style="margin: auto 15px;"
-            style="color: #e6e0ec;" href="#"  
-            > Send a mail</a>
-            <a style="color: #e6e0ec;"  style="margin: auto 15px;" href="tel:+21699331501" >
-             Call me</a>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="img\mobile.jpg" />
           </div>
-        </section>
-        <!-- END CONTACT SECTION -->
-        <!-- START FOOTER SECTION -->
-        <footer>
-          <p style="color: #e6e0ec;">
-            &copy; Created with Love by Mouheb 
-            <a href="https://www.facebook.com/ghyfz" target="_blank"
-              >facebook </a>
-          </p>
-        </footer>
-        <!-- END FOOTER SECTION -->
+          <div class="project-info">
+            <p class="project-category">
+              a real time mobile application connected to a smartwatch help
+              users to check their vital signs
+            </p>
+            <strong class="project-name"
+              ><span>E-Health Mobile application</span>
+              <a href="#" class="more-details">more details</a></strong
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="img\school.png" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">
+              school management system that helps to organize students,
+              teachers, exams, payment, and time
+            </p>
+            <strong class="project-name"
+              ><span>School management</span>
+              <a href="#" class="more-details">more details</a></strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-card" id="contact">
+        <h2 class="title">Contact me</h2>
+        <div class="content">
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="info">
+                <h3>Phone number</h3>
+                <p>+21699331501</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Email</h3>
+                <p>ghabrimouheb@gmail.com</p>
+              </div>
+            </div>
+          </div>
+    </section>
+<footer class="footer">
+    <p class="footer-p">Copy rights&copy&reg <span>Ghabri Mouheb</span></p>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ghabri-mouheb-a3ab46222/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/ghabri1997/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/ghyfz"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+</footer>  
+</body>
+
 </html>
